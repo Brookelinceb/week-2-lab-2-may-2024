@@ -2,8 +2,51 @@ html {
   height: 100%;
   width: 100%;
 }
+header {
+  border: 2px solid black;
+  width: 25%;
+  padding: 25px;
+  margin: 50px; 
+}
 
 footer {
   text-align: center;
   font-size: x-small;
+}
+
+h2 {
+  color: blue;
+}
+
+ul{
+color: red;
+
+
+}
+
+OL{
+color: green;
+
+}
+
+#first {
+  color: purple;
+}
+
+.container {
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 200PX;
+  height: 200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
